@@ -1,0 +1,10 @@
+<div class="card">
+    <img  style="width:100%">
+    <div class="container" [ngClass]="{'hot':maxTemperature===dayCard.Temperature.Maximum.Value}"> 
+      <h4><b>{{dayCard.Date}}</b></h4>
+       <p>Day: {{dayCard.Day.IconPhrase}}</p>
+      <p>Night: {{dayCard.Night.IconPhrase}}</p>
+      <p>Max Temprature: {{dayCard.Temperature.Maximum.Value}}</p>  
+
+    </div>
+  </div>
